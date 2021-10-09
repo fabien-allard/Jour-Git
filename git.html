@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="git.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet"> 
+    <title>💻Jour-Git💻</title>
+</head>
+<body>
+    <center>
+      <div id="Principal">
+        </div>
+      </div>
+
+    <table border="8"> <!-----Insertion du Tableau/Ouverture De la Balise-->
+       <!---Table Row--Ouverture De mes Ligne de ma balise Table-->
+            <div class="PremiéreTable">
+              <tr>
+                 <th>COMMANDES GIT</th>
+                   <th>DESCRIPTION COMMANDES GIT</th>
+      </tr>
+      </table>
+    </div>
+      <div class="Principal"></div>
+      <table border=1 frame=hsides rules=rows>
+      <tr> <!-----Ouverture De mes Ligne de ma balise Table-->
+        </tr>
+          <div>  
+             <div class="DeuxiémeTable">
+               <table border="5">
+          <!---Table Data---Corp du Tableau  --> 
+                        
+            <tr>
+              <th> <!--Entete de Ma Cellule Du Tableau-->EFFECTUER DES CHANGEMENTS</th>
+              <th>DESCRIPTION DES CHANGEMENTS EFFECTUEE</th>
+            </tr>
+            <tr>
+              <td> $ git config --global user.name "[nom]"</td>
+              <td>Définit le nom que vous voulez associer à toutes vos opérations de commit</td>
+                <tr>
+                  <td> $ git config --global user.email "[adresse email]"
+                       </td>
+                 <td>Définit l'email que vous voulez associer à toutes vos opérations de 
+                  commit
+                   <tr>
+                     <td> $ git config --global color.ui auto</td>
+                     <td>Active la colorisation de la sortie en ligne de commande</td>
+                                        
+                <tr>
+                  <th>CONFIGURATION DES OUTILS</th>
+                  <th>DESCRIPTION DES OUTILS</th>
+                </tr>
+            <tr>
+               <td> $ git status</td>
+              <td>Liste tous les nouveaux fichiers et les fichiers modifiés à commiter</td>
+              <tr>
+                <td> $ git diff </td>
+                <td>Montre les modifications de fichier qui ne sont pas encore indexées
+                </td>
+                  <tr>
+                    <td> $ git add [fichier]</td>
+
+                   <td>Ajoute un instantané du fichier, en préparation pour le suivi de version
+                     <tr>
+                       <td> $  git diff --staged</td>
+                       <td>Montre les différences de fichier entre la version indexée et la dernière version</td>
+
+                       <tr>
+                        <td>  $ git reset [fichier]</td>
+                       <td>Enleve le fichier de l'index, mais conserve son contenu</td>
+
+                         <tr>
+                           <td> $ git commit -m "[message descriptif]"
+                             
+                           </td>
+                           <td>Enregistre des instantanés de fichiers de façon permanente dans 
+                            l'historique des versions</td>
+                       <tr>
+                 <th>GROUPER DES CHANGEMENTS</th>
+                 <th>DESCRIPTION POUR GROUPER DES CHANGEMENT</th>
+                </tr>
+                <tr>
+                  <td> $ git branch</td>
+                  <td>  (Définit le nom que vous voulez associer à toutes vos opérations de commit)
+                   <tr>
+                  <th>CRÉER DES DÉPÔTS</th>
+                  <th>DESCRIPTION DES CREATION DES DÉPÔTS</th>
+                 </tr>
+                  <tr>
+                  <td> $ git init [nom-du-projet] </td>
+                 <td>Crée un dépôt local à partir du nom spécifié
+            
+                  <tr>
+                <th>CHANGEMENTS AU NIVEAU DES NOMS DE FICHIERS</th>
+              <th>DESCRIPTION DES CHANGEMENTS AU NIVEAU DES NOMS DE  FICHIERS</th>
+               </tr>
+                 <tr>
+            <td> $ git rm [fichier]</td>
+
+                                
+            <td>Supprime le fichier du répertoire de travail et met à jour l'index
+               <tr>
+                <th>VÉRIFIER L'HISTORIQUE DES VERSIONS</th>
+                 <th>DESCRIPTION DE LA VERIFICATION DE L'HISTORIQUE DES VERSIONS </th>
+             </tr>
+            <tr>
+              <td> $ git log
+              </td>
+              <td>  Montre l'historique des versions pour la branche courante</td>
+                <tr>
+                  <th> <!--Entete de Ma Cellule Du Tableau-->EXCLURE DU SUIVI DE VERSION</th>
+                  <th>DESCRIPTION  DE L'EXCLUSION DU SUIVI DE VERSION</th>
+                </tr>
+            <tr>
+               <td> $ git ls-files --other --ignored --exclude-standard</td>
+
+                    
+              <td>  Liste tous les fichiers exclus du suivi de version dans ce projet</td>
+                <tr>
+                  <td>*.log
+                        build/
+                        temp-* </td>
+                 
+                  <td>  Un fichier texte nommé .gitignore permet d'éviter le suivi de 
+                    version accidentel pour les fichiers et chemins correspondant aux 
+                    paerns spécifiés</td>
+                    <tr>
+                      <th> <!--Entete de Ma Cellule Du Tableau-->REFAIRE DES COMMITS</th>
+                      <th>DESCRIPTION POUR REFAIRE UN COMMIT</th>
+                    </tr>
+                <tr>
+                   <td> $ git reset [commit]</td>
+                  <td> Annule tous les commits après `[commit]`, en conservant les 
+                    modifications localement
+                    <tr>
+                      <td>$ git reset --hard [commit]</td>
+                    <td>Supprime tout l'historique et les modifications effectuées après le 
+                      commit spécifié</td>
+                        <tr>
+                          <th> <!--Entete de Ma Cellule Du Tableau-->ENREGISTRER DES FRAGMENTS</th>
+                          <th>DESCRIPTION POUR ENREGISTRER DES FRAGMENTS</th>
+                        </tr>
+                    <tr>
+                       <td> $ git stash
+                      </td>
+                      <td> Enregistre de manière temporaire tous les fichiers sous suivi de version 
+                        qui ont été modifiés ("remiser son travail")</td>
+                      <tr>
+                        <th> <!--Entete de Ma Cellule Du Tableau-->SYNCHRONISER LES CHANGEMENTS</th>
+                        <th>DESCRIPTION DE LA SYNCHRONISATION DES CHANGEMENTS</th>
+                      </tr>
+                  <tr>
+                     <td>$ git fetch [nom-de-depot]</td>
+                    <td>Récupère tout l'historique du dépôt nommé</td>
+               </table> 
+              </table>
+               </div>       
+      </div>                                   
+    <!----Fin du Tableau/fermeture De la Balise-->
+    </center>
+</body>
+</html>

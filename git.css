@@ -1,0 +1,48 @@
+*{
+    background-color: aqua;
+    background-image: url(https://www.travelercar.com/wp-content/uploads/2016/04/4a36e314016aa914f203ea6b7d579dc6_large.jpeg) ;
+    color: red;
+}
+
+th{
+    background-color: red;
+    width: 1200px;
+    font-size: 25px;
+    border-radius: 2px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+td{
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    font-size: 17px;
+    color:yellowgreen;
+    font-family: 'Berkshire Swash', cursive;
+}
+.principale
+{
+margin-top:50px;
+margin-left:18%;
+height:100%;
+width: 837px;
+background-color:#fff8f8;
+}
+
+.PremiereTable
+{
+margin-top:75px;
+margin-left:50%;
+height:10%;
+width: 600px; 
+background-color:#f8f8ff;
+}
+
+.DeuxiémeTable
+{
+margin-top:40px;
+margin-left:18%;
+height:30%;
+width: 20%; 
+background-color:#fff8f8;
+}
